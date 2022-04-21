@@ -17,7 +17,7 @@ const Footer = () => {
           <div className="location">
             <FaSearchLocation
               size={20}
-              style={{ color: "#fff", marginRight: "2rem" }}
+              style={{ color: "#ffffff", marginRight: "2rem" }}
             />
             <div>
               <p>123 Acme St.</p>
@@ -28,7 +28,7 @@ const Footer = () => {
             <h4>
               <FaPhone
                 size={20}
-                style={{ color: "#fff", marginRight: "2rem" }}
+                style={{ color: "#ffffff", marginRight: "2rem" }}
               />
               1-800-123-1234
             </h4>
@@ -37,7 +37,7 @@ const Footer = () => {
             <h4>
               <FaMailBulk
                 size={20}
-                style={{ color: "#fff", marginRight: "2rem" }}
+                style={{ color: "#ffffff", marginRight: "2rem" }}
               />
               trips@galaxy.com
             </h4>
@@ -46,26 +46,22 @@ const Footer = () => {
         <div className="right">
           <h4>About the company</h4>
           <p>
-            "Lorem Ipsum is not simply random text. It has roots in a piece of
-            classical Latin literature from 45 BC, making it over 2000 years
-            old. Richard McClintock, a Latin professor at Hampden-Sydney College
-            in Virginia, looked up one of the more obscure Latin words,
-            consectetur, from a Lorem Ipsum passage, and going through the cites
-            of the word in classical literature, discovered the undoubtable
-            source."
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam"
           </p>
           <div className="social">
             <FaFacebook
               size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
+              style={{ color: "#ffffff", marginRight: "1rem" }}
             />
             <FaTwitter
               size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
+              style={{ color: "#ffffff", marginRight: "1rem" }}
             />
             <FaLinkedin
               size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
+              style={{ color: "#ffffff", marginRight: "1rem" }}
             />
           </div>
         </div>

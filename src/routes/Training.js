@@ -2,17 +2,17 @@ import React from "react";
 import Footer from "../components/Footer";
 import HeroImage from "../components/HeroImage";
 import Navbar from "../components/Navbar";
-import PricingCards from "../components/PricingCards";
+import TrainingInfo from "../components/TrainingInfo";
 
-const Pricing = () => {
+const Training = () => {
   return (
     <div>
       <Navbar />
-      <HeroImage heading="PRICING." text="Choose your trip." />
-      <PricingCards />
+      <HeroImage heading="TRAINING." text="Pre-Flight & In-Flight Training." />
+      <TrainingInfo />
       <Footer />
     </div>
   );
 };
 
-export default Pricing;
+export default Training;
